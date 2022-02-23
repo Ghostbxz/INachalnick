@@ -1,36 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\GalN\\source\\repos\\INachalnick\\INachalnick\\INachalnick.csproj": {}
+    "C:\\Code\\INachalnick\\INachalnick\\INachalnick.csproj": {}
   },
   "projects": {
-    "C:\\Users\\GalN\\source\\repos\\INachalnick\\INachalnick\\INachalnick.csproj": {
+    "C:\\Code\\INachalnick\\INachalnick\\INachalnick.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GalN\\source\\repos\\INachalnick\\INachalnick\\INachalnick.csproj",
+        "projectUniqueName": "C:\\Code\\INachalnick\\INachalnick\\INachalnick.csproj",
         "projectName": "INachalnick",
-        "projectPath": "C:\\Users\\GalN\\source\\repos\\INachalnick\\INachalnick\\INachalnick.csproj",
-        "packagesPath": "C:\\Users\\GalN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GalN\\source\\repos\\INachalnick\\INachalnick\\obj\\",
+        "projectPath": "C:\\Code\\INachalnick\\INachalnick\\INachalnick.csproj",
+        "packagesPath": "C:\\Users\\GalHaManManiak\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\INachalnick\\INachalnick\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\GalN\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\GalHaManManiak\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -41,12 +37,48 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
+            "CSharpExtensions.OpenSource": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "CSharpExtensions.OpenSource.Mongo": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "ConsoleColorsExtension": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.Rest.ClientRuntime": {
+              "target": "Package",
+              "version": "[2.3.23, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.14.0, )"
+            },
+            "NSwag.AspNetCore": {
+              "target": "Package",
+              "version": "[13.15.9, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
+            },
+            "System.Reactive": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [
@@ -67,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
