@@ -21,6 +21,7 @@ namespace INachalnick
                 MongoHelper.SetGlobalSettings();
                 //Logger.Debug("Init Main");
                 //Logger.Debug("Start Building Host");
+                Console.WriteLine("Start Building Host");
                 _ = new DefaultController { }; // to init Loaded static field
                 var host =  Host.CreateDefaultBuilder(args)
                                 .ConfigureWebHost(config =>
@@ -56,6 +57,7 @@ namespace INachalnick
         http://{lan}:5000/api/swagger/index.html?url=./swagger.json
 {"#####################################################".Green()}";
             //Logger.Debug(logHostDetails);
+            Console.WriteLine(logHostDetails);
         }
 
         public static string GetLanIp()

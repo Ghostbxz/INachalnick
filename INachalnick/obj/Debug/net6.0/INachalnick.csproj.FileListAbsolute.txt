@@ -52,3 +52,17 @@ C:\Code\INachalnick\INachalnick\obj\Debug\net6.0\refint\INachalnick.dll
 C:\Code\INachalnick\INachalnick\obj\Debug\net6.0\INachalnick.pdb
 C:\Code\INachalnick\INachalnick\obj\Debug\net6.0\INachalnick.genruntimeconfig.cache
 C:\Code\INachalnick\INachalnick\obj\Debug\net6.0\ref\INachalnick.dll
+C:\Code\INachalnick\INachalnick\bin\Debug\net6.0\Elastic.Apm.dll
+C:\Code\INachalnick\INachalnick\bin\Debug\net6.0\Elastic.Apm.MongoDb.dll
+C:\Code\INachalnick\INachalnick\bin\Debug\net6.0\Elastic.Apm.Mongo.dll
+C:\Code\INachalnick\INachalnick\bin\Debug\net6.0\Dia2Lib.dll
+C:\Code\INachalnick\INachalnick\bin\Debug\net6.0\Microsoft.Diagnostics.FastSerialization.dll
+C:\Code\INachalnick\INachalnick\bin\Debug\net6.0\Microsoft.Diagnostics.Tracing.TraceEvent.dll
+C:\Code\INachalnick\INachalnick\bin\Debug\net6.0\OSExtensions.dll
+C:\Code\INachalnick\INachalnick\bin\Debug\net6.0\TraceReloggerLib.dll
+C:\Code\INachalnick\INachalnick\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Code\INachalnick\INachalnick\bin\Debug\net6.0\System.Diagnostics.PerformanceCounter.dll
+C:\Code\INachalnick\INachalnick\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Code\INachalnick\INachalnick\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Code\INachalnick\INachalnick\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+C:\Code\INachalnick\INachalnick\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
