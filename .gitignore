@@ -333,12 +333,5 @@ _Pvt_Extensions
 **/*.DS_Store
 **/.local-chromium
 unit_tests.xml
-src/Indexing/RadarkTelegramNew/tdlib/RadarkTelegram
 tests-results
 src/**/out
-src/RadarkConsole/raid-users
-src/OnPremTools/PackageExecutor/WorkingDir
-src/OnPremTools/PackageGenerator/WorkingDir
-src/Indexing/Leaker/WorkingDir
-src/RadarkConsole/WorkingDir
-src/Indexing/BotsDetection/WorkingDir
