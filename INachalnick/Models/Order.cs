@@ -10,13 +10,13 @@ namespace INachalnick.Models
         public DateTime CreatedAt { get; set; }
         [Required(ErrorMessage = "Name is required.")] public string OrderType { get; set; }
         public string CustomerId { get; set; }
-        public List<DealInfo> DealsInfo { get; set; }
+        public List<string> DealsInfo { get; set; }
         public List<string> Invoices { get; set; }
         public string Notes { get; set; }
         public StatusEnum Status { get; set; }
         public List<string> Receipts { get; set; }
         public string JobId { get; set; }
-        public Progress Progress { get; set; }
+        public List<string> ProgressIds { get; set; }
     }
     public enum StatusEnum
     {

@@ -9,7 +9,7 @@ namespace INachalnick.Models
     {
         public DateTime StartedDraw { get; set; }
         public string DrawerName { get; set; }
-        public List<Review> Reviewed { get; set; }
+        public List<string> Reviewes { get; set; }
         public DateTime FilesCreatedDate { get; set; }
         public DateTime PrintedDate { get; set; }
 
