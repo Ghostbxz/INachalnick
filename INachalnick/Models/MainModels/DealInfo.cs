@@ -9,6 +9,6 @@ namespace INachalnick.Models
     {
         [Required(ErrorMessage = "Price is required.")] public float Price { get; set; }
         public bool TaxIncluded { get; set; }
-        public string Discount { get; set; }
+        public string? Discount { get; set; }
     }
 }

@@ -1,6 +1,9 @@
 ﻿using ProgramUtilities.Mongo;
 
-public class TestItem : MongoBaseDocument
+namespace INachalnick.Models
 {
-    public string Name { get; set; }
+    public class TestItem : MongoBaseDocument
+    {
+        public string Name { get; set; } = string.Empty;
+    }
 }

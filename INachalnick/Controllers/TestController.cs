@@ -2,16 +2,20 @@
 using System.Threading.Tasks;
 using CSharpExtensions.OpenSource.Mongo;
 using INachalnicUtilities.Mongo;
+using INachalnick.Models;
 
-[ApiController]
-[Route("[controller]")]
-public class TestController : ControllerBase
+namespace INachalnick.Controllers
 {
-    [HttpGet("GetAllDocs")]
-    public async Task<string> GetAllDocs()
+    [ApiController]
+    [Route("[controller]")]
+    public class TestController : ControllerBase
     {
-        var collection = await INachalnickMongo.GetCollectionAsync<TestItem>(INachalnickMongoDb.TestData, "test");
-        var tests = await collection.GetAllAsync();
-        return $"OK";
+        [HttpGet("GetAllDocs")]
+        public async Task<string> GetAllDocs()
+        {
+            var collection = await INachalnickMongo.GetCollectionAsync<TestItem>(INachalnickMongoDb.TestData, "test");
+            var tests = await collection.GetAllAsync();
+            return $"OK {tests}";
+        }
     }
 }

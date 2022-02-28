@@ -5,7 +5,7 @@ namespace INachalnickTinyRestApi.Models
 {
     public class ExceptionWithData : Exception
     {
-        public object ExtraData { get; set; }
+        public object? ExtraData { get; set; }
         public ExceptionWithData()
         {
         }
