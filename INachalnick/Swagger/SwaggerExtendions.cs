@@ -87,10 +87,7 @@ public static class SwaggerExtendions
                         var filePath = "https://raw.githubusercontent.com/swagger-api/swagger-ui/master/dist/" + ctx.Request.Path.Value!.Split("/").Last();
                         await getFileAndResponse(filePath, content => 
                         {
-                            if(path.EndsWith("index.html"))
-                            {
-                                content = content.Replace("https://petstore.swagger.io/v2/swagger.json", "./swagger.json");
-                            }
+                            content = content.Replace("https://petstore.swagger.io/v2/swagger.json", "./swagger.json");
                             return content;
                         });
                         return;
